@@ -1,0 +1,45 @@
+/*p.cor_texto{
+color: blueviolet;
+} Class = para elementos p com o nome da cor_texto */
+
+*{ background-color: antiquewhite;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+background-color: blue;
+}
+
+.tamanho_fonte {
+
+    font-size: 22px;
+    background-color: blue;
+}
+
+.cor_paragrafo{
+color: brown;
+font-size: 20px;
+
+}
+
+.cor_texto{
+color: rgb(246, 239, 252);
+text-align: center;
+}
+
+
+#titulo{
+    color: brown;
+}
+
+main p{
+background-color: brown;
+
+}
+
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
