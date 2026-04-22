@@ -1,0 +1,13 @@
+body {
+    background-color: azure;
+background-image: url('gato.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+div{
+
+    height: 100vh;
+
+}

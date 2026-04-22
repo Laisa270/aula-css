@@ -1,0 +1,30 @@
+body{
+
+background-color: azure;
+background-image: url("gato.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+figure {
+    text-align: center;
+    background-color: rgba(137, 38, 236, 0.877);
+}
+
+figcaption {
+    font-size: 14px;
+}
+img{
+width: 350px;
+}
+p {
+  text-align: justify;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 20px;
+  color: rgb(15, 15, 15);
+  text-shadow: 2px 2px 4px black;
+}

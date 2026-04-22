@@ -1,0 +1,30 @@
+h1 {
+    border: 10px double rebeccapurple;
+    margin: 10px;
+}
+
+/* p{
+border-top: ;
+border-right: ;
+border-bottom: ;
+border-left: ;
+
+border-style: dotted;
+border-style: double;
+
+border-color: chocolate;
+border-width: 5px;
+} */
+
+figure {
+    text-align: center;
+    background-color: rgba(137, 38, 236, 0.877);
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+img{
+width: 350;
+}
