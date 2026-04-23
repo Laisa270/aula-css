@@ -1,0 +1,24 @@
+:root {
+    /* Cor padrão da pag. */
+    --cor-de-fundo: #caf0ff;
+    --cor-titulo: #457b9d;
+    --cor-texto: #e9edc9;
+
+
+    /* Fonte do texto*/
+
+    --titulo: arial, sans-serif;
+    --texto-padrao: helvetica;
+
+    /* Tamanho fonte */
+    --titulo-primario: 30px;
+    --sub-titulo: 26px;
+    --corpo-texto: 20px;
+
+}
+
+h1{
+    color: var(--cor-titulo);
+font-size: var(--titulo-primario);
+font-family: var(--titulo);
+}
