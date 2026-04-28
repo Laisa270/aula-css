@@ -1,0 +1,18 @@
+html{
+font-size: 62.5%;
+scroll-behavior:smooth;
+ }
+ 
+
+ #menu1{
+    background-color: coral;
+    height:100vh ;
+ }
+ #menu2{
+    background-color: rgb(240, 80, 255);
+    height:100vh ;    
+ }
+ #menu3{
+    background-color: rgb(74, 52, 200);
+    height:100vh ; 
+ }
