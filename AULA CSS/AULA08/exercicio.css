@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+h1,
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    p {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Arial;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    p {
+        text-align: justify;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        color: rgb(96, 0, 128);
+    }
+}
