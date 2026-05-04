@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  background-color: antiquewhite;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "header header header header header header"
+    "main   main   main   main   side   side"
+    "main   main   main   main   side   side"
+    "box1   box1   box2   box2   box2   box2"
+    "footer footer footer footer footer footer";
+    gap: 10px;
+}
+
+.container div {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+.cx1 {
+  background: deepskyblue;
+  grid-area: header;
+}
+
+
+.cx2 {
+  background: orangered;
+  grid-area: main;
+}
+
+
+.cx3 {
+  background: mediumturquoise;
+  grid-area: side;
+}
+
+
+.cx4 {
+  background: black;
+  grid-area: box1;
+}
+
+
+.cx5 {
+  background: indigo;
+  grid-area: box2;
+}
+
+.cx6 {
+  background: blue;
+  grid-area: footer;
+}
